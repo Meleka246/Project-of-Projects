@@ -1,0 +1,42 @@
+body
+{
+    background: black url('http://9to5mac.files.wordpress.com/2012/11/mac_os_x_cats_background_by_charmanderfan7-d39bjlc.jpg')no-repeat center center fixed;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+table
+{
+    position: absolute;
+    top: 100px;
+    left: 25%;
+    border-collapse: collapse;
+    border: 5px double black;
+    width: 500px;
+    height: 500px;
+}
+table, tr, td
+{
+    border-collapse: collapse;
+    border: 5px double grey;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(249,234,176);
+    font-family: 'Curlz MT', sans-serif;
+}
+textarea
+{
+    background: rgba(44,166,201,0.7);
+    height: 100%;
+    width: 99%;
+    color: rgb(232,140,2);
+    font-size: 65px;
+    font-weight: bold;
+    cursor:text;
+    font-family: 'Raleway', sans-serif;
+}
+th {background: grey)
+    cursor:pointer;}
+td {background: grey
+    cursor:pointer;}
+td:hover {color: #f2a218;}

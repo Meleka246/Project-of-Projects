@@ -1,0 +1,26 @@
+/*
+    Document   : stylem8.css
+    Created on : 2015-02-25 09:53 PM
+    Author     : YourName650 Meleka246
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+varfloor {
+   width=9999999999999px; height=10px
+   
+}
+
+function myGame{ 
+    background-image: url('http://img1.wikia.nocookie.net/__cb20140311035419/villains/images/5/5b/Hell-2-.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+function myFunction() 
+{
+    document.body.style.background = "#f3f3f3 url('http://img1.wikia.nocookie.net/__cb20140311035419/villains/images/5/5b/Hell-2-.jpg') no-repeat right top";
+}
+

@@ -1,0 +1,17 @@
+/*
+    Document   : aol.css
+    Created on : 2015-03-03 05:39 PM
+    Author     : Meleka246 Jose
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+button {
+    align: top;
+}
