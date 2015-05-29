@@ -1,0 +1,18 @@
+/*
+    Document   : home.css
+    Created on : 2015-05-28 09:39 PM
+    Author     : Meleka246
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+root {
+    display: block;
+}
+
+body{
+    background-image: url("Home_Background.jpg");
+    
+    
+}
