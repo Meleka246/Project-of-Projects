@@ -3,30 +3,63 @@ To change this template use Tools | Templates.
 -->
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-
-<head>
-    <title>System Profiler</title>
-</head>
+<link type="text/css" rel="stylesheet" href="navbar.css" />
+<!--Navigation Bar-->
 
 <body>
-    <h2 style="text-align:center;">System Profiler</h2>
-    <h3 style="text-align:center;">Specifications</h3>
-    <div></div>
-    <h4 style="text-align:center;">Vindidium is a site where you can create your very own artificial inteligence, or AI, and fight it against other types of AI. You create your own bot by first learning one of the many diffrent languages that Vindidium understands, such as javascript, C++, C#, Git, NodeJS, F#, D, and many many others.  To get started, go to Vindinium.org</h4>
-    <h3></h3>
-    <h4></h4>
-    <h3></h3>
-    <h4></h4>
-    <h3></h3>
-    <h4></h4>
-    <h3></h3>
-    <h4></h4>
-    <h2>What are you waiting for? You should go and play!</h2>
-    <div style="text-align:center;">
-    <form action="www.vindinium.org">
-        <input type="submit" value="Vindidium">
-    </form>
-    </div>
+
+    <nav>
+        <a href="root.html" class="brand-logo">Home</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="About_creator.html">About The Creator</a>
+            </li>
+            <li><a href="hardware.html">The Laptops Project</a>
+            </li>
+            <li><a href="Old_Projects/aol.js">The Gaming Project</a>
+            </li>
+            <li><a href="html_info.html">The Html Wiki</a>
+            </li>
+            <li><a href="Vindidium.html">About This Vindidium</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Navigation Bar-->
+
+    <head>
+        <title>System Profiler</title>
+    </head>
+
+    <body style="background-color:#383B32;">
+        <h2 style="text-align:center;color:white;">System Profiler</h2>
+        <h3 style="text-align:center;color:white;">Specifications</h3>
+        <div style="text-align:center">
+            <img src="vindi.png">
+        </div>
+        <h4 style="text-align:center;color:white;">Vindidium is a site where you can create your very own artificial inteligence, or AI, and fight it against other types of AI. You create your own AI, or bot,  by first learning one of the many diffrent languages that Vindidium understands, such as javascript, C++, C#, Git, NodeJS, F#, D, and many many others.  To get started, go to Vindinium.org</h4>
+        <h3 style="text-align:center;color:white;">What kind of language is the easiest to learn? </h3>
+        <h4 style="text-align:center;color:white;">In my opinion, I think that javascript is one of the easiest languanges to learn. I think that javascript is the easiest language, because javascript is the foundation to  learning many other languanges, such as Java, C++, C, and many others. </h4>
+        <h3 style="text-align:center;color:white;">What are the games mechanics?</h3>
+        <h4 style="text-align:center;color:white;">The game mechanics are simple, four bots are selected to go into a randomly generated map. Bots look like knights, symbolizing, that they are heros. The 4 bots must fight each other for mines, which are scatered around the map. Mines are symbolized as goblins with a gold stack right underneth them. Each mine grants the player 1 gold coin every second. 20 health points are deducted if the bot decides to go against a mine. Your bot only includes 100 health points. IF your bot loses all 100 points, they die and spawn back to their orgin, which is choosen randomly. Depending on how many mines your bot has, you bot starts to get a stable income of gold. Gold is symbolizes with your stats as little pieces of metal. With this gold, your bot can decide to go to a tavern to gain more health, depending on the curcumstances. Taverns are symbolized as beer icons, and are usually close together. If you bot does decide to go to a tavern, they will deduct 5 coins per drink. You bot will also gain 20 health from this. The game ends when 1200 rounds have been executed. A turn happens everytime all bots decide what to do. Every round, your bot looses 1 health point, which is symbolized as thirst. Your bot stops loosing 1 health point after they have reached 1/100 health points. The winner is decided as the one with the most gold at the end. </h4>
+        <h3 style="text-align:center;color:white;">Here is an example of some code that I wrote. The reason I place the code towards the left, is because javascript is meant to be written this way. </h3>
+        <h4 style="color:white;">if(task === "freemines") { </h4>
+        <h4 style="color:white;">var closestMine = bot.freeMines[0];</h4>
+        <h4 style="color:white;"> for(i = 0; i < bot.freeMines.length; i++) { </h4>
+        <h4 style="color:white;"> if(bot.findDistance(myPos, closestMine) > bot.findDistance(myPos, bot.freeMines[i])) {</h4>
+        <h4 style="color:white;">closestMine = bot.freeMines[i];</h4>
+        <h4 style="color:white;">      }</h4>
+        <h4 style="color:white;">}</h4>
+        <h4 style="color:white;"> console.log("Claiming a Free Mine!"); </h4>
+        <h4 style="color:white;">myDir = bot.findPath(myPos, closestMine);</h4>
+        <h4 style="color:white;"> } </h4>
+        <h3 style="text-align:center;color:white;"> What does the above code mean???</h3>
+        <h4 style="text-align:center;color:white;"> The above code is use to program my bot to capture any free mines, if run. For example, if my bot were to have more than 40 health, and there were some free mines, he would target the closest mine and attack, or claim, it. bot.FindDistance finds out the distance of all the mines, myPos figures out what the position of my current bot is, all this information is then stored in bot.freeMines. </h4>
+        <h2 style="text-align:center;color:white;"> What are you waiting for? You should go and play!</h2>
+        <div style="text-align:center;color:white;">
+            <form href="#" target="_blank" action="http://www.vindinium.org">
+                <input type="submit" value="Vindidium">
+            </form>
+        </div>
+        <h5 style="text-align:center;color:white;"> Note: If the link doesn't work, copy and paste this link into your browser: http://www.vindinium.org
 </body>
 
-</html>
+</html>ml>
